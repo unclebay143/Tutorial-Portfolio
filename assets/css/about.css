@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ABOUT SECTION STYLE */
+.about{
+    padding: 100px 200px;
+    transition: 0.3s ease;
+}
+
+.about-image{
+    height: 200px;
+    width: 100%;
+}
+
+.about-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.about-me{
+    margin-top: 20px;
+    line-height: 1.5;
+    color: rgb(47, 46, 65);
+    font-size: 17px;
+}
+
+#surname{
+    font-weight: 900;
+}
+
+
+@media(max-width: 980px){
+    .about{
+        padding: 100px 20px;
+
+    }
+}
+
+@media (max-width: 900px){
+    
+   /* ABOUT SECTION */
+
+    .about{
+        padding: 100px 50px;
+    }
+}

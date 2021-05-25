@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="./../assets/css/navbar.css">
+    <link rel="stylesheet" href="./../assets/css/skills.css">
+
+    <!-- FONTAWESOME ICON -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>My Skills</title>
+</head>
+<body>
+    <!-- MENU NAVBAR -->
+
+    <header>
+        <nav>
+            <div class="logo-wrapper">
+                <a href="#" class="logo">Logo</a>
+            </div>
+            <div class="nav-items" id="nav-item-wrapper">
+                <a href="./../index.html" class="nav-links">Home</a>
+                <a href="#" class="nav-links">Skills</a>
+                <a href="./about.html" class="nav-links">About</a>
+                <a href="#" class="nav-links">Contact</a>
+            </div>
+            <div class="hamburger-wrapper" id="menu-toggler" onclick="toggleNavbar()">
+               <i class="hamburger fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="skills">
+            <!-- HTML SECTION -->
+            <section class="html">
+                <!-- skills icon -->
+                <div class="skills-icon-container">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <!-- skills description -->
+                <div class="skills-description">
+                    <p>I know html very well.</p>
+                    <progress value="70" max="100"> 70% </progress>
+                </div>
+            </section>
+
+            <!-- CSS SECTION -->
+            <section class="css">
+                <!-- skills icon -->
+                <div class="skills-icon-container">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <!-- skills description -->
+                <div class="skills-description">
+                    <p>I can desiign a website with css very well.</p>
+                    <progress value="75" max="100"> 75% </progress>
+                </div>
+            </section>
+
+            
+            <!-- JAVASCRIPT SECTION -->
+            <section class="javascript">
+                <!-- skills icon -->
+                <div class="skills-icon-container">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <!-- skills description -->
+                <div class="skills-description">
+                    <p>I am very good at javascript.</p>
+                    <progress value="80" max="100"> 80% </progress>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+<script src="./../assets/js/hamburger.js"></script>
+
+</body>
+</html>
